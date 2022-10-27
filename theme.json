@@ -1,0 +1,204 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.0/theme.json",
+	"settings": {
+		"border": {
+			"color": true,
+			"radius": true,
+			"style": true,
+			"width": true
+		},
+		"color": {
+			"palette": [
+				{
+					"color": "#002639",
+					"name": "BlueGreen",
+					"slug": "fse-study-lite-BlueGreen"
+				},
+				{
+					"color": "#ff2660",
+					"name": "DarkPink",
+					"slug": "fse-study-lite-DarkPink"
+				},
+				{
+					"color": "#4a4a4a",
+					"name": "Grey",
+					"slug": "fse-study-lite-Grey"
+				}
+			]
+		},
+		"custom": {
+			"typography": {
+				"font-size": {
+					"heading-1": "clamp(1.5rem, 1.375rem + 0.625vw, 2.125rem)",
+					"heading-2": "clamp(1.25rem, 1.125rem + 0.625vw, 1.875rem)",
+					"heading-3": "clamp(1rem, 0.9rem + 0.5vw, 1.5rem)",
+					"heading-4": "clamp(1rem, 0.925rem + 0.375vw, 1.375rem)",
+					"heading-5": "clamp(0.875rem, 0.825rem + 0.25vw, 1.125rem)",
+					"heading-6": "clamp(0.75rem, 0.7rem + 0.25vw, 1rem)"
+				}
+			}
+		},
+		"layout": {
+			"contentSize": "1160px",
+			"wideSize": "1280px"
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true,
+			"units": [
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw",
+				"%"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFace": [
+						{
+							"fontFamily": "'Poppins', sans-serif;",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assests/fonts/poppins/Poppins-Regular.ttf"
+							]
+						},
+						{
+							"fontFamily": "'Poppins', sans-serif;",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assests/fonts/poppins/Poppins-Bold.ttf"
+							]
+						}
+					],
+					"fontFamily": "'Poppins', sans-serif;",
+					"name": "Poppins",
+					"slug": "fse-study-lite-Poppins"
+				}
+			],
+			"fontSizes": [
+				{
+					"name": "Small",
+					"size": "20px",
+					"slug": "small"
+				},
+				{
+					"name": "Medium",
+					"size": "24px",
+					"slug": "medium"
+				},
+				{
+					"name": "Regular",
+					"size": "28px",
+					"slug": "regular"
+				}
+			]
+		}
+	},
+	"styles": {
+		"blocks": {
+			"core/button": {
+				"border": {
+					"color": "currentColor",
+					"radius": "50px"
+				},
+				"color": {
+					"background": "var(--wp--preset--color--fse-study-lite-dark-pink)",
+					"text": "var(--wp--preset--color--white)"
+				},
+				"spacing": {
+					"padding": {
+						"bottom": "14px",
+						"left": "28px",
+						"right": "28px",
+						"top": "14px"
+					}
+				},
+				"typography": {
+					"fontWeight": "700"
+				}
+			},
+			"core/navigation": {
+				"color": {
+					"text": "var(--wp--preset--color--fse-study-lite-blue-green)"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--fse-study-lite-blue-green)"
+						}
+					}
+				}
+			}
+		},
+		"color": {
+			"background": "var(--wp--preset--color--white)",
+			"text": "var(--wp--preset--color--fse-study-lite-grey)"
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--heading-1)",
+					"lineHeight": "1.5"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--heading-2)",
+					"lineHeight": "1.2"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--heading-3)",
+					"lineHeight": "1"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--heading-4)",
+					"lineHeight": "1"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--heading-5)",
+					"lineHeight": "1"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--heading-6)",
+					"lineHeight": ""
+				}
+			},
+			"link": {
+				"color": {
+					"text": "vvar(--wp--preset--color--fse-study-lite-dark-pink)"
+				}
+			}
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--fse-study-lite-poppins)",
+			"fontSize": "16px",
+			"lineHeight": "1.5"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header",
+			"title": "Header"
+		},
+		{
+			"area": "footer",
+			"name": "footer",
+			"title": "Footer"
+		}
+	],
+	"version": 2
+}
